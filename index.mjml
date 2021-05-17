@@ -1,0 +1,151 @@
+<mjml>
+
+    <mj-head>
+
+    </mj-head>
+
+    <mj-body>
+
+        <!--HEADER-->
+        <mj-section background-color="white" padding="0">
+            <mj-column> 
+                <mj-image width="75px" src="./images/logo.png" />
+            </mj-column>
+        </mj-section>
+
+        <!--Bannière nouveau magasin-->
+        <mj-section background-color="black" padding="5px">
+            <mj-column>
+                <mj-divider border-width="2px" border-color="#ae9a65" padding-top="35px"></mj-divider>
+            </mj-column>
+            <mj-column>
+                <mj-text color="white" align="center" font-size="25px">
+                    Nouveau </br> Magasin
+                </mj-text>
+            </mj-column>
+            <mj-column>
+                <mj-divider border-width="2px" border-color="#ae9a65" padding-top="35px"></mj-divider>
+            </mj-column>
+        </mj-section>
+        
+        <!--Image nouveau magasin avec Bouton VOIR-->
+        <mj-section background-url="./images/boutique.jpg" background-size="contain" padding="0" padding-top="250px">
+            <mj-column> 
+                <mj-button align="right" background-color="#ae9a65">
+                    VOIR
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        <!--Image MAP-->
+        <mj-section background-color="white" padding="0" >
+            <mj-column> 
+                <mj-image padding="0" width="600px" src="./images/map.jpg" />
+            </mj-column>
+        </mj-section>
+
+        <!--Bannière C&C-->
+        <mj-section background-color="black" padding="5px">
+            <mj-column>
+                <mj-divider border-width="2px" border-color="#ae9a65" padding-top="35px"></mj-divider>
+            </mj-column>
+            <mj-column>
+                <mj-text color="white" align="center" font-size="25px">
+                    CLICK & </br> COLLECT
+                </mj-text>
+            </mj-column>
+            <mj-column>
+                <mj-divider border-width="2px" border-color="#ae9a65" padding-top="35px"></mj-divider>
+            </mj-column>
+        </mj-section>
+
+        <!--Images C&C RANGÉE 1-->
+        <mj-section background-color="white">
+            <mj-column> 
+                <mj-image src="./images/laitiere.jpg" alt="Image La laitière"/>
+                <mj-text padding-top="0" align="center" font-size="15px">
+                    La laitière </br> 15,75€
+                </mj-text>
+            </mj-column>
+            <mj-column> 
+                <mj-image src="./images/apero.jpg" alt="Image Coin de l'apéro"/>
+                <mj-text padding-top="0" align="center" font-size="15px">
+                    Coin de l'apéro </br> 50,00€
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <!--Images C&C RANGÉE 2-->
+        <mj-section background-color="white">
+            <mj-column> 
+                <mj-image src="./images/gourmand.jpg" alt="Image Trio Gourmand"/>
+                <mj-text padding-top="0" align="center" font-size="15px">
+                    Trio Gourmand </br> 32,00€
+                </mj-text>
+            </mj-column>
+            <mj-column> 
+                <mj-image src="./images/printaniere.jpg" alt="Image La printanière"/>
+                <mj-text padding-top="0" align="center" font-size="15px">
+                    La printanière </br> 36,00€
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <!--Bouton Commander-->
+        <mj-section background-color="white" padding="0" >
+            <mj-column> 
+                <mj-button background-color="#ae9a65">
+                    Commander
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        <!--Partie supérieur du Footer-->
+        <mj-section background-color="black" padding="0" >
+            <mj-column>
+                <mj-social font-size="15px" icon-size="18px" mode="horizontal" align="left">
+                <mj-social-element src="./images/facebook.png" alt="Icone Facebook"></mj-social-element>
+                <mj-social-element src="./images/instagram.png" alt="Icone Instagram"></mj-social-element>
+                </mj-social>
+            </mj-column>
+            <mj-column> 
+                <mj-text font-size="10px" color="white" align="right">
+                    T. +33 (0)4 77 64 40 79 </br> mons@mons-fromagerie.fr
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <!--LIGNE SEPARATRICE FOOTER-->
+        <mj-section background-color="black" padding="0">
+            <mj-column>
+                <mj-divider border-width="2px" border-color="#ae9a65" padding-top="0"></mj-divider>
+            </mj-column>
+        </mj-section>
+
+        <!--Partie inférieur du Footer-->
+        <mj-section background-color="black" padding-top="0" padding-bottom="35px">
+            <mj-column>
+                <mj-text align="center" font-size="8px" padding="0">
+                   <a style="color: white;">CGU Carte de fidélité</a>
+                </mj-text>
+            </mj-column>
+            <mj-column>
+                <mj-text align="center" font-size="8px" padding="0">
+                   <a style="color: white;">RGPD</a>
+                </mj-text>
+            </mj-column>
+            <mj-column>
+                <mj-text align="center" font-size="8px" padding="0">
+                   <a style="color: white;">Mentions Légales</a>
+                </mj-text>
+            </mj-column>
+            <mj-column>
+                <mj-text align="center" font-size="8px" padding="0">
+                   <a style="color: white;">Nos partenaires</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+    </mj-body>   
+
+</mjml>
